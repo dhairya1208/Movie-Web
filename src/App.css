@@ -1,0 +1,25 @@
+.linkk{
+    display : 'flex';
+    gap:'20px';
+    justify-content:'space-between';
+    align-items:'center' ;
+    background-color:'lightblue';
+    padding:'20px';
+}
+
+.nav{
+    text-decoration:'none';
+        list-style:'none';
+        color:'red';
+        font-size:'18px';
+        justify-content:'center'; 
+        align-items:'center' ;
+}   
+
+.nav-link{
+    text-decoration:'none';
+        color:'red';
+        font-size:'18px';
+        justify-content:'center'; 
+        align-items:'center' ;
+}
