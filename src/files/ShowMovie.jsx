@@ -63,8 +63,8 @@ export default function ShowMovie() {
 
     return (
         <>
-        <div className='movie-container'>
-            <p>Today's Most Watched</p>
+        <div className='movie-container top-row'>
+            <p className='top-head heading'>Today's Most Watched</p>
             <div className="movie-row">
                 {movie.map((movie) => (
                     <div className='movie-poster' key={movie.id}>
@@ -73,8 +73,9 @@ export default function ShowMovie() {
                             alt={movie.title}  
                         />
                         <div className='movie-info'>
+                            <h3>{movie.title}</h3>
                             <button>❤️</button>
-                            <p>⭐ {movie.vote_average.toFixed(1)}</p>
+                            <p className = "Rating">⭐ {movie.vote_average.toFixed(1)}</p>
                         </div>
                     </div>
                 ))}
@@ -83,7 +84,7 @@ export default function ShowMovie() {
 
 
     <div className='movie-container'>
-            <p>Most Popular Movies</p>
+            <p className='heading'>Most Popular Movies</p>
             <div className="movie-row"> 
                 {popularMovie.map((movie) => (
                     <div className='movie-poster' key={movie.id}>       
@@ -100,7 +101,7 @@ export default function ShowMovie() {
         </div>
             
 <div className='movie-container'>
-            <p>Hindi Movies</p>
+            <p className='heading'>Hindi Movies</p>
             <div className="movie-row"> 
                 {hindiMovie.map((movie) => (
                     <div className='movie-poster' key={movie.id}>       

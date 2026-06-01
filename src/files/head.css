@@ -2,11 +2,13 @@ body{
     margin:0;
     padding:0;
     background-color:#0b0000;
+    
 }
 
 .navbar{
     display:flex;
-   justify-self: auto;
+    position:absolute;
+    top:0;
     align-items:center;
     background-color:#0b0000;
     color:white;
@@ -14,7 +16,10 @@ body{
     font-size:18px;
     border-radius:round;
     box-shadow: 0 4px 8px rgba(202, 60, 60, 0.2);
-  
+    position:fixed;
+    z-index:100;
+    width:100%;
+    margin:0;
 }
 
 .logo{

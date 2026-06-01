@@ -1,0 +1,31 @@
+.footer-container{
+    background-color: #ba1e1e;
+    border-top: 5px solid #a16565;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-container p{
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    font-family: 'Arial', sans-serif;
+    color: #080808;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+a{
+    color:white;
+}
